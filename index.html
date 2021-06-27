@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>colors</title>
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <ul>
+                <li onclick="mudarBg()"><a href="#red" class="lis">Red</a></li>
+                <li onclick="mudarBg()"><a href="#green" class="lis">Green</a></li>
+                <li onclick="mudarBg()"><a href="#yellow" class="lis">Yellow</a></li>
+                <li onclick="mudarBg()"><a href="#blue" class="lis">Blue</a></li>
+                <li onclick="mudarBg()"><a href="#black" class="lis">Black</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="red" class="divs" style="background: red;"></div>
+        <div id="blue" class="divs" style="background: blue;"></div>
+        <div id="green" class="divs" style="background: green;"></div>
+        <div id="yellow" class="divs" style="background: rgb(216, 216, 74);"></div>
+        <div id="black" class="divs" style="background: black;"></div>
+    </main>
+    <footer>
+        <p id="footer">&copy;FelipeDantas</p>
+    </footer>
+    <script>
+        let background = document.getElementsByClassName("divs")
+        let bgHover = document.getElementsByClassName("lis")
+        function mudarBg() {
+            
+        }
+        /*
+        for (let i = 0; i < background.length; i++) {
+            console.log(background[i])
+            
+        }
+        */
+    </script>
+</body>
+</html>
